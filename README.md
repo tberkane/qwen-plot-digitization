@@ -26,8 +26,8 @@ The `<path_to_input_file>` should be a text file containing one image path or UR
 The script supports the following command-line options:
 
 - `--input_file` (required): Path to a file containing image paths/URLs (one per line)
-- `--upscale`: Flag to enable image upscaling. This might be helpful for small/low-quality images
-- `--max_tokens` (default: 12800): Maximum number of tokens to generate
+- `--upscale`: Flag to enable image upscaling. This might be helpful for small/low-quality images but will slow down the process
+- `--max_tokens` (default: 12800): Maximum number of tokens to generate. Increase this if the output text is cut off
 - `--use_flash_attention`: Flag to enable flash attention. Use on more recent GPUs for speedup
 - `--prompt` (default: "Extract the underlying data for this plot in json format."): Custom prompt for image analysis
 - `--output_file` (default: "output.json"): Path to save the output JSON file
