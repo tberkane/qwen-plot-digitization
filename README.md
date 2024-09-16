@@ -16,7 +16,7 @@ pip install torch
 To run the script, use the following command:
 
 ```bash
-python gpu_cluster_script.py --input_file <path_to_input_file> [options]
+python digitize_plots.py --input_file <path_to_input_file> [options]
 ```
 
 The `<path_to_input_file>` should be a text file containing one image path or URL per line.
